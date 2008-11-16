@@ -1,5 +1,7 @@
 #Help page for mageBotSettings.ini.
 
+[http://code.google.com/p/magebot/wiki/main Back to Main Page]
+
 = mageBotSettings.ini =
 
 The mageBotSettings.ini is the heart of the mageBot.mac.  Without it the macro will not run correctly.  At the same time if it is not set up correctly the macro can do some very quirky things.  This page will explain what each setting in the ini is for and give some examples of how to use it.
