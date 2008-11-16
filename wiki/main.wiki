@@ -6,5 +6,5 @@ This macro is meant to be a macro capable of running the mage fully by itself.  
 
 The following pages are here to help you better understand certian aspects of the macro.
 
-  *mageBotSettings.ini
-  *pathRecord.mac
+  * mageBotSettings.ini
+  * pathRecord.mac
