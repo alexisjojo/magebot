@@ -35,3 +35,122 @@ The mageBotSettings.ini is the heart of the mageBot.mac.  Without it the macro w
 || PetAssistPct || _integer_ || The percentage when you attack with your pet.  Also will not cast any spells until the pet is engaged ||
 || GroupBuffAtStart || _boolean_ || Specifies wether the mage should do groupbuffs when the macro is started, if set to false you can make the mage group buff by sending a tell saying groupbuff ||
 || MinBuffCheckTime || _timer_ || The amount of time between buff checks, keeps the mage from constantly cycling through targets while not fighting. ||
+
+[SelfBuffs]
+Value=4
+SelfBuffName1=Eidolic Guardian Rk. II
+SelfBuffName2=Shield of the Void
+SelfBuffName3=Prime Symbiosis
+SelfBuffName4=Ornate Runed Totem Staff
+SelfBuffName5=NULL
+SelfBuffText1=Eidolic Guardian Rk. II
+SelfBuffText2=Shield of the Void
+SelfBuffText3=Prime Symbiosis Recourse
+SelfBuffText4=Maelin's Meditation
+SelfBuffText5=NULL
+SelfBuffSlot1=gem9
+SelfBuffSlot2=gem9
+SelfBuffSlot3=gem9
+SelfBuffSlot4=item
+SelfBuffSlot5=gem9
+[PetBuffs]
+Value=3
+PetBuffName1=Brimstoneskin
+PetBuffName2=Burnout VIII
+PetBuffName3=Iceflame Tenement
+PetBuffName4=NULL
+PetBuffName5=NULL
+PetBuffText1=Brimstoneskin
+PetBuffText2=Burnout VIII
+PetBuffText3=Iceflame Tenement
+PetBuffText4=NULL
+PetBuffText5=NULL
+PetBuffSlot1=gem8
+PetBuffSlot2=gem8
+PetBuffSlot3=gem8
+PetBuffSlot4=gem8
+PetBuffSlot5=gem8
+[GroupBuffs]
+Value=1
+GroupBuffName1=Lavaskin Rk. II
+GroupBuffDisplayName1=Lavaskin Rk. II
+GroupBuffAlias1=ds
+GroupBuffClass1=WAR|SHD|PAL|RNG|MNK|ROG|BRD|BST|BER|SHM|CLR|DRU|WIZ|MAG|ENC|NEC
+GroupBuffSlot1=gem7
+[SafePCs]
+Value=0
+PCName1=NULL
+[WantedLoot]
+Value=0
+LootItem1=
+[DestroyLoot]
+DestroyUnknown=false
+Value=0
+LootItem1=
+[IgnoreMobs]
+Value=0
+MobName1=Gillamina
+MobName2=dead
+[Combat]
+Value=6
+SpellName1=Rancorous Servant
+SpellSlot1=gem6
+SpellMaxMobs1=100
+SpellMinMobs1=1
+SpellMaxMobHPs1=100
+SpellMinMobHPs1=30
+SpellMinMana1=20
+SpellRecastDelay1=18s
+SpellCondition1=Me.Song[Gift of Exquisite Radiant Mana].ID
+
+SpellName2=Bolt of Molten Scoria
+SpellSlot2=gem10
+SpellMaxMobs2=100
+SpellMinMobs2=1
+SpellMaxMobHPs2=80
+SpellMinMobHPs2=40
+SpellMinMana2=30
+SpellRecastDelay2=5s
+SpellCondition2=Me.Song[Flames of Power].ID
+
+SpellName3=Torrent of Thunderbolts Rk. II
+SpellSlot3=gem4
+SpellMaxMobs3=1
+SpellMinMobs3=1
+SpellMaxMobHPs3=90
+SpellMinMobHPs3=21
+SpellMinMana3=20
+SpellRecastDelay3=15s
+
+SpellName4=Fickle Pyroclasm
+SpellSlot4=gem2
+SpellMaxMobs4=100
+SpellMinMobs4=1
+SpellMaxMobHPs4=92
+SpellMinMobHPs4=21
+SpellMinMana4=10
+SpellRecastDelay4=10s
+
+SpellName5=Shock of Cineral Steel Rk. II
+SpellSlot5=gem5
+SpellMaxMobs5=100
+SpellMinMobs5=1
+SpellMaxMobHPs5=85
+SpellMinMobHPs5=5
+SpellMinMana5=10
+SpellRecastDelay5=10s
+
+SpellName6=Malosenea
+SpellSlot6=gem7
+SpellMaxMobs6=100
+SpellMinMobs6=1
+SpellMaxMobHPs6=100
+SpellMinMobHPs6=50
+SpellMinMana6=15
+SpellRecastDelay6=5m
+
+[Alerts]
+AlertDeathAudioFile=null
+Value=0
+AlertMobName1=null
+AlertAudioFile1=null
