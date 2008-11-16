@@ -1,5 +1,3 @@
-#Help page for mageBotSettings.ini.
-
 [http://code.google.com/p/magebot/wiki/main Back to Main Page]
 
 = mageBotSettings.ini =
