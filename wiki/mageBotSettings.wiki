@@ -12,9 +12,9 @@ The mageBotSettings.ini is the heart of the mageBot.mac.  Without it the macro w
 || MinMobLvl || _integer_ || The minimum level of a mob that the mage will engage in combat with, unless the mob attacks the mage ||
 || MaxMobLvl || _integer_ || The maximum level of a mob that the mage will engage in combat with, unless the mob attacks the mage ||
 || MobRadius || _integer_ || The maximum distance a mob can do for the mage to attack it ||
-|| PetHeal || _string_ || The name of the pet heal spell to use when healing the pet
+|| PetHeal || _string_ || The name of the pet heal spell to use when healing the pet ||
 || PetHealPct || _integer_ || The percent health of your pet when you want to start healing it ||
-|| PetHealTo || _integer_ || The percent health of your pet to stop healing it.
+|| PetHealTo || _integer_ || The percent health of your pet to stop healing it. ||
 || MinSafeDistance || _integer_ || The minimum distance the mage should be from mobs.  Its best to have this slightly higher than the mobs melee range that you are botting near. ||
 || ResistTries || _integer_ || The number of times to try casting a spell if you are resisted ||
 || MinRestMana || _integer_ || The percent mana that you will stop to med at ||
@@ -25,7 +25,7 @@ The mageBotSettings.ini is the heart of the mageBot.mac.  Without it the macro w
 || ReplyToTells || _boolean_ || Sets wether or not the mage will respond to tell commands sent to her.  In any situation it will never respond to a tell from a pc that is not on your SafePCs list ||
 || WalkPath || _boolean_ || If set to false the mage will stand at the starting point and only use the path to get out of range of a mob.  Usefull if your just camping a named mob. ||
 || PathName || _string_ || Specifies the name of the path to use.  default will tell it to use the default path name which is ${Zone.ShortName} ||
-|| LootCorpses || _boolean_ || Specifies wether the mage will loot corpses or not
+|| LootCorpses || _boolean_ || Specifies wether the mage will loot corpses or not ||
 || LootReturnNearestLoc || _boolean_ || If set to true the mage will return to the nearest loc after looting a corpse, instead of the loc it was at when the mob died ||
 
 
@@ -36,4 +36,4 @@ The mageBotSettings.ini is the heart of the mageBot.mac.  Without it the macro w
 || MainAssist || _string_ || The name of the player to assist for the target to attack ||
 || PetAssistPct || _integer_ || The percentage when you attack with your pet.  Also will not cast any spells until the pet is engaged ||
 || GroupBuffAtStart || _boolean_ || Specifies wether the mage should do groupbuffs when the macro is started, if set to false you can make the mage group buff by sending a tell saying groupbuff ||
-|| MinBuffCheckTime || _timer_ || The amount of time between buff checks, keeps the mage from constantly cycling through targets while not fighting.
+|| MinBuffCheckTime || _timer_ || The amount of time between buff checks, keeps the mage from constantly cycling through targets while not fighting. ||
